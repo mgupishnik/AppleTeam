@@ -24,9 +24,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="but1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YeQ-vj-2dm">
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="202.5"/>
                                         <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="36"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="100"/>
                                         <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="CLICK ME"/>
+                                        <state key="normal" title="🍌"/>
                                         <connections>
                                             <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HTJ-ZN-rpA"/>
                                         </connections>
@@ -34,9 +34,9 @@
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emz-dj-ls0">
                                         <rect key="frame" x="0.0" y="212.5" width="355" height="202"/>
                                         <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="36"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="100"/>
                                         <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="CLICK ME"/>
+                                        <state key="normal" title="🍒"/>
                                         <connections>
                                             <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qdp-4p-nkP"/>
                                         </connections>
@@ -44,9 +44,9 @@
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2iu-px-Wnn">
                                         <rect key="frame" x="0.0" y="424.5" width="355" height="202.5"/>
                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="36"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="100"/>
                                         <color key="tintColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="OR ME"/>
+                                        <state key="normal" title="🍋"/>
                                         <connections>
                                             <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G06-y4-wgA"/>
                                             <segue destination="IqH-PT-bPv" kind="presentation" modalTransitionStyle="flipHorizontal" id="dgH-J0-XwZ"/>
@@ -57,17 +57,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="qSy-GQ-aza" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7f7-n8-IqA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qSy-GQ-aza" secondAttribute="trailing" constant="10" id="Obx-0R-PeM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qSy-GQ-aza" secondAttribute="bottom" constant="10" id="TbC-U1-mqH"/>
-                            <constraint firstItem="qSy-GQ-aza" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Wfe-cj-SCF"/>
-                            <constraint firstItem="qSy-GQ-aza" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="bpi-PC-Ac3"/>
-                            <constraint firstItem="qSy-GQ-aza" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fLl-sR-bJU"/>
+                            <constraint firstItem="qSy-GQ-aza" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3pn-5M-X4q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qSy-GQ-aza" secondAttribute="bottom" constant="10" id="PaM-48-sj0"/>
+                            <constraint firstItem="qSy-GQ-aza" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="VEd-uS-WRl"/>
+                            <constraint firstItem="qSy-GQ-aza" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="YrJ-bG-fLU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="button1" destination="YeQ-vj-2dm" id="zrC-Jb-8j9"/>
+                        <outlet property="button2" destination="emz-dj-ls0" id="los-7A-bHy"/>
+                        <outlet property="button3" destination="2iu-px-Wnn" id="vPP-5P-HQJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -82,10 +82,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mgupi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0h-el-MTM">
-                                <rect key="frame" x="136" y="40" width="103" height="46"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                                <color key="textColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0h-el-MTM">
+                                <rect key="frame" x="47" y="40" width="281.5" height="44.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="R.I.P. HARAMBE">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="38" name=".SFNSDisplay"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUs-aF-xTQ">
